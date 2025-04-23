@@ -16,7 +16,7 @@ import { setOnlineUsers } from "./redux/chatSlice";
 import { setSocket } from "./redux/socketSlice";
 import SocketProvider from "./context/socketProvider";
 import ProtectedRoutes from "./components/ProtectedRoutes";
-import ChatbotPage from "./components/chatBotPage";
+import ChatbotPage from "./components/ChatbotPage";
 import ChatbotWrapper from "./components/ChatbotWrapper";
 
 const browserRouter = createBrowserRouter([
