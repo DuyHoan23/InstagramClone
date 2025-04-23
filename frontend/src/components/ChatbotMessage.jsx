@@ -1,5 +1,5 @@
 import React from "react";
-import ChatbotIcon from "./chatBotIcon";
+import ChatbotIcon from "./ChatbotIcon";
 
 const ChatbotMessage = ({ chat }) => {
   const isBot = chat.role === "model"; // true nếu là bot, false nếu là user

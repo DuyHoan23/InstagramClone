@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import ChatbotForm from "./ChatbotForm";
-import ChatbotIcon from "./chatBotIcon";
+import ChatbotIcon from "./ChatbotIcon";
 import ChatbotMessage from "./ChatbotMessage";
 
 const ChatbotPage = () => {
