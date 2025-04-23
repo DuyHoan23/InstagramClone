@@ -35,7 +35,7 @@ export const CommentDialog = ({ open, setOpen }) => {
   const sendMessageHandler = async () => {
     try {
       const res = await axios.post(
-        `http://localhost:8000/api/v1/post/${selectedPost?._id}/comment`,
+        `https://instagramclone-685l.onrender.com/api/v1/post/${selectedPost?._id}/comment`,
         { text },
         {
           headers: {
