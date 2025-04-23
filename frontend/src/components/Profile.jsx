@@ -37,7 +37,7 @@ const Profile = () => {
   const followUnfollowHandler = async () => {
     try {
       const res = await axios.post(
-        `http://localhost:8000/api/v1/user/followorunfollow/${userProfile._id}`,
+        `https://instagramclone-m2gm.onrender.com/api/v1/user/followorunfollow/${userProfile._id}`,
         {}, // không cần gửi body
         {
           withCredentials: true, // quan trọng để gửi cookie

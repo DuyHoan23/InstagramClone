@@ -10,7 +10,7 @@ const useGetUserProfile = (userId) => {
     const fetchUserProfile = async () => {
       try {
         const res = await axios.get(
-          `https://instagramclone-685l.onrender.com/api/v1/user/${userId}/profile`,
+          `https://instagramclone-m2gm.onrender.com/api/v1/user/${userId}/profile`,
           {
             withCredentials: true,
           }

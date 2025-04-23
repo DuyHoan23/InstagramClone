@@ -9,7 +9,7 @@ const useGetAllPost = () => {
     const fetchAllPost = async () => {
       try {
         const res = await axios.get(
-          "https://instagramclone-685l.onrender.com/api/v1/post/all",
+          "https://instagramclone-m2gm.onrender.com/api/v1/post/all",
           {
             withCredentials: true,
           }

@@ -9,7 +9,7 @@ const useGetSuggestedUsers = () => {
     const fetchAllSuggestedUsers = async () => {
       try {
         const res = await axios.get(
-          "https://instagramclone-685l.onrender.com/api/v1/user/suggested",
+          "https://instagramclone-m2gm.onrender.com/api/v1/user/suggested",
           {
             withCredentials: true,
           }

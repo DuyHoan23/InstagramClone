@@ -36,7 +36,7 @@ const CreatePost = ({ open, setOpen }) => {
     try {
       setLoading(true);
       const res = await axios.post(
-        "https://instagramclone-685l.onrender.com/api/v1/post/addpost",
+        "https://instagramclone-m2gm.onrender.com/api/v1/post/addpost",
         formData,
         {
           headers: {

@@ -20,7 +20,7 @@ const ChatPage = () => {
   const sendMessageHandler = async (receiverId) => {
     try {
       const res = await axios.post(
-        `https://instagramclone-685l.onrender.com/api/v1/message/send/${receiverId}`,
+        `https://instagramclone-m2gm.onrender.com/api/v1/message/send/${receiverId}`,
         { textMessage },
         {
           headers: {
