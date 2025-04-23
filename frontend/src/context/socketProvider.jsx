@@ -12,7 +12,7 @@ const SocketProvider = ({ children }) => {
 
   useEffect(() => {
     if (user) {
-      const socketio = io("https://instagramclone-685l.onrender.com", {
+      const socketio = io("https://instagramclone-m2gm.onrender.com", {
         query: {
           userId: user?._id,
         },
